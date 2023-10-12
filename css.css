@@ -1,0 +1,68 @@
+.heading{
+    color: rgb(113, 5, 70); 
+    text-align: center;
+}
+h3{
+   
+   
+    margin-left: 150px;
+    background-color: rgb(113, 5, 70); 
+    color: wheat;
+    font-size: 50px;
+
+}
+
+input{
+    text-align: center;
+    height: 35px;
+    width: 300px;
+}
+.innput{
+    text-align: center;
+}
+img{
+    margin-top: 150px;
+    border: 2px solid;
+    border-radius: 15px;
+    border-color:rgb(113, 5, 70) ;
+    width: 30%;
+    height: auto;
+    margin: 20px;
+
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+
+    
+}
+.load{
+    visibility: visible;
+}
+.loadhide{
+    display: none;
+}
+
+
+@media(max-width : 900px){
+    input{
+        text-align: center;
+        height: 35px;
+        width: 80%;
+    }
+    .innput{
+        text-align: center;
+    }
+    img{
+        width: 80%;
+        height: auto;
+
+    }
+    .cards{
+        text-align: center;
+    }
+
+}
